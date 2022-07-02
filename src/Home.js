@@ -1,9 +1,18 @@
 import React from 'react'
+import Movies from './Movies';
+import  Search  from './Search';
+
+
 
 const Home = () => {
+  //console.warn(name);
   return (
-    <div>Home</div>
+    <>
+    <Search />
+    <Movies />
+    </>
+
   )
 }
 
-export default Home
+export default Home;
